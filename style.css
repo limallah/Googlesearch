@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family:Arial, sans-serif;
+    background-color: white;
+}
+
+/* header */
+
+.header{
+    height: 10 0px;
+    column-width: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    background-color: #fdfdfd;
+    padding-bottom: 2%;
+}
+
+.gicon{
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.search_bar{
+display: flex;
+justify-content: right;
+align-items: center;
+margin-left: 80px;
+gap: 16px;
+width: 800px;
+height: 50px;
+border-radius: 60px;
+padding: 20px;
+background-color: white;
+box-shadow: -1px 2px 1px 0.4px lightgray;
+}
+
+.google-lens{
+    width: 20px;
+    height: 20px;
+}
+
+.side-icon{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 20rem;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.acct-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 22px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+    position: absolute;
+    bottom: 82%;
+    left: 18.5%;
+}
+
+._nav{
+    display: flex;
+    justify-content: flex-start; 
+    color: gray;
+    gap: 10px;
+}
+
+/* hero-section */
+
+.hero-section{ 
+    display: grid;
+    grid-template-columns: minmax(540px, 568px,)
+    repeat(4,minmax(107px, 114px));
+    grid-gap: 24px;
+}
+
+.below_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    right: 40%;
+    text-align: center;
+    top: 31%;   
+}
+
+.btn_nav{
+    width: 80px;
+    height: 32px;
+    color: rgb(59, 116, 59);
+    background-color: rgb(210, 250, 226);
+    border-radius: 20px;
+    border: none;
+
+}
+
+.result{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 3%;
+}
+
+.football{
+    display: flex; 
+    justify-content: flex-start; 
+    gap: 10px;
+}
