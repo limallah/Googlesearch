@@ -8,7 +8,7 @@ body{
     width: 100%;
     height: 100%;
     font-family:Arial, sans-serif;
-    background-color: white;
+    background-color: #fefefe;
 }
 
 /* header */
@@ -95,7 +95,7 @@ a{
 section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
 }
 .section-left {
     display: flex;
@@ -114,9 +114,9 @@ section {
     flex-direction: row;
     gap: 8px;
     position: absolute;
-    right: 47%;
+    right: 45%;
     text-align: center;
-    top: 34%;   
+    top: 32%;   
 }
 
 .btn_nav{
@@ -184,3 +184,59 @@ section {
     height: 155px;
     border-radius: 0 0 16px 0;
 }
+.more-results-right{
+    display: flex;
+    position: absolute;
+    bottom: 3.5%;
+    left: 56%; 
+}
+.youtube-video{
+    width: 250px;
+    height: 310px;
+}
+
+  video{
+    width: 250px;
+    border-radius: 16px 16px 0 0;
+} 
+.video-info{
+    width: 250px;
+    border-radius: 0 0 16px 16px;
+    background-color: white;
+     
+} 
+.video-info > p{
+   line-height: 18px;
+   padding: 8px;
+}
+ .mheight{
+    width: 100px;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 16px;
+    background-color: whitesmoke;
+}
+.abc > p{
+    text-align: center;
+    padding:8px 20px 80px;
+}
+.age{
+    width: 100px;
+    height: 140px;
+    margin-left: 20px;
+    border-radius: 16px;
+    background-color: whitesmoke;
+}
+
+.goal > div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0.5%;
+    left: 57%;
+    width: 220px;
+    height: 134px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px;
+} 
