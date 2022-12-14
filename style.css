@@ -14,7 +14,7 @@ body{
 /* header */
 
 .header{
-    height: 10 0px;
+    height: 100px;
     column-width: 100px;
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@ body{
 display: flex;
 justify-content: right;
 align-items: center;
-margin-left: 80px;
+margin-left: 50px;
 gap: 16px;
 width: 800px;
 height: 50px;
@@ -65,13 +65,18 @@ box-shadow: -1px 2px 1px 0.4px lightgray;
     border-radius: 22px;
 }
 
-ul{
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+.links-left{
     display: flex;
     flex-direction: row;
     gap: 10px;  
     position: absolute;
     bottom: 82%;
-    left: 18.5%;
+    left: 14.5%;
 }
 
 ._nav{
@@ -80,24 +85,38 @@ ul{
     color: gray;
     gap: 10px;
 }
+._nav > a{
+    color: grey;
+}
+.tool > a{color: grey;}
 
 /* hero-section */
 
-.hero-section{ 
-    display: grid;
-    grid-template-columns: minmax(540px, 568px,)
-    repeat(4,minmax(107px, 114px));
-    grid-gap: 24px;
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+.section-left > p {
+    margin-left: 60px;
+    font-size: 14px;
+    color: grey;
+    padding-top: 10px;
 }
 
 .below_nav{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     position: absolute;
-    right: 40%;
+    right: 47%;
     text-align: center;
-    top: 31%;   
+    top: 34%;   
 }
 
 .btn_nav{
@@ -110,14 +129,58 @@ ul{
 
 }
 
-.result{
-    color: gray;
-    margin-top: 10px;
-    margin-bottom: 3%;
+.hero-name{
+    line-height: 30px;
+    margin-top: 32px;
+    margin-left: 60px;
 }
 
 .football{
     display: flex; 
     justify-content: flex-start; 
     gap: 10px;
+}
+.more-results {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 29%;
+    left: 14%;
+}
+.more-result {
+    display: flex;
+   flex-direction: row;
+   position: absolute;
+    bottom: -95.5%;
+    left: 0%;
+}
+
+
+.first{
+    width: 270px;
+    height: 155px;
+    border-radius: 16px 0 0 0;
+    border-bottom: 1px solid white;
+}
+.second{
+    width: 270px;
+    height: 155px;
+    border-radius: 0 16px 0 0 ;
+    border-bottom: 1px solid white;
+}
+.third{
+    width: 270px;
+    height: 155px;
+    border-right: 1px solid white;
+    border-radius: 0 0 0 16px;
+}
+.fourth{
+    width: 135px;
+    height: 155px;
+    border-right: 1px solid white;
+}
+.fifth{
+    width: 135px;
+    height: 155px;
+    border-radius: 0 0 16px 0;
 }
